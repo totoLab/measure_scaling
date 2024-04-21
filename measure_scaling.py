@@ -1,4 +1,4 @@
-import misure_manuali
+import manual_measurements
 
 DISTANCE_PRECISION = 3
 SUM_PRECISION = 2
@@ -7,7 +7,7 @@ TOLERANCE = 0.01
 SCALE_FACTOR = 50
 
 def get_manual_measurements():
-    return misure_manuali.misure_verticali
+    return manual_measurements.misure_verticali
 
 def build_object(measurements):
     distance_ratio = []
